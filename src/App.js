@@ -10,10 +10,15 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary defaultKeyword="sunset" />
+          <Dictionary defaultKeyword="Art" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Catarina Torres</small>
+          <small>
+            This project was coded by Catarina Torres and is{" "}
+            <a href="https://github.com/catarina6t">open-sourced on GitHub</a>{" "}
+            and hosted on{" "}
+            <a href="https://happy-spence-e633e2.netlify.app/"> Netlify </a>
+          </small>
         </footer>
       </div>
     </div>
